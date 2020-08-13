@@ -1,0 +1,13 @@
+.left-side-menu-light .navbar-custom {
+    background-color:#ffffff !important;
+    
+}
+.topbar .topbar-left {
+    background-color: #ffffff !important;
+}
+.left-side-menu-light .navbar-custom .notification-list .app-search .form-control:focus {
+    border: 1px solid #42464b !important;
+    background: #ffffff !important;
+    color: #42464b !important;
+
+}
