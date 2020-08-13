@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration</title>
+
+
+        <link rel="stylesheet" href="reg.css">
+
+
+    </head>
+    <body >
+
+<center>
+        <div class="container">
+            <form>
+
+                <h3>Registration</h3>
+
+              <label for="player1">Player 1</label>
+              <input type="text" id="player1" placeholder="Player 1 username" required><br>
+          
+              <label for="player2">Player 2</label>
+              <input type="text" id="player2" placeholder="Player 2 username" required><br>
+          
+              <input type="radio" id="enable_num_round" name="selection" value="num_round">
+              <label for="num_round">Number of Rounds</label>
+
+              <input type="radio" id="enable_max_score" name="selection" value="max_score">
+              <label for="max_score">Maximum Score</label><br>
+    
+             <label for="player1">Number of Rounds: </label>
+             <input type="number" id="num_round" required><br>
+                
+             <label for="player2">Maximum score: </label>
+             <input type="number" id="max_score" required><br>
+             
+              
+              <button class="submit" type="Submit">Enter Game</button>
+            </form>
+          </div>
+        </center>   
+    </body>
+</html>
