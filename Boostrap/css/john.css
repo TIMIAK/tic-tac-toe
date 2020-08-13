@@ -1,0 +1,40 @@
+.cstinpl {
+    display: flex;
+    grid-template-rows: 50% 50%;
+    cursor: pointer;
+}
+.cstinp{
+    width: 1px;
+}
+
+.topbar .topbar-left {
+    background-color: white !important;
+}
+
+.upload-area {
+    border: 2px dotted lightgray;
+    border-radius: 3px;
+    min-height: 120px;
+}
+
+.upload-area:hover {
+    cursor: pointer;
+}
+
+#file {
+    display: none;
+}
+
+/* Thumbnail */
+.thumbnail {
+    width: 80px;
+    height: 80px;
+    padding: 2px;
+    border: 2px solid lightgray;
+    border-radius: 3px;
+    float: left;
+}
+
+.size {
+    font-size: 12px;
+}
